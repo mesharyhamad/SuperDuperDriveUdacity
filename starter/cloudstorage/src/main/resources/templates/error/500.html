@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" type="text/css" media="all" th:href="@{/css/bootstrap.min.css}">
+
+  <title>500</title>
+</head>
+<body >
+<div class="container justify-content-center ">
+  <h1>
+    Oops!</h1>
+  <h2>
+    Something went wrong! </h2>
+  <div class="error-details">
+    We are looking to see what happened.
+    <a th:href="@{'/home'}" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-home"></span>
+      Click here to home </a>
+  </div>
+
+</div>
+</body>
+</html>
